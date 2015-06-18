@@ -1,0 +1,15 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    <name> Jaime Martinez Simental, Carolina Guillen Medina  <role> web developer, design  <twitter>
+
+ 	@jaimesimental # THANKS
+
+    <name>
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5,javascript,
+    Apache Server Configs, jQuery, Modernizr, Normalize.css

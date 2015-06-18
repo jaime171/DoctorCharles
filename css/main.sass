@@ -1,0 +1,1106 @@
+$first_color: #1EB8E1
+$second_color: #123F70
+*
+	margin: 0
+	padding: 0
+	
+body
+	background-image: url(../img/fondo_total.png)
+	color: white
+	font-family: 'roboto', sans-serif
+header
+	background-color: white
+	position: fixed
+	width: 100%
+	box-shadow: 1px 1px 10px #888888
+	z-index: 1
+	h1
+		font-size: 21px
+		margin-top: -65px
+		margin-left: 120px
+		color: black
+	ul
+		margin-left: 460px
+		margin-top: -40px
+	li
+		display: inline-block
+		padding-left: 28px
+	a
+		text-decoration: none
+		color: black
+	a:hover
+		color: $first_color
+section
+	position: absolute
+textarea
+	resize: none
+#header_container
+	margin          : 0 auto
+	background-color: white
+	height: 100px
+	width: 100%
+	font-weight: lighter
+
+	
+/*==========Section_1============*/
+#section_1
+	background-image: url(../img/fondo_1.jpg)
+	height: 450px 
+	width: 100%
+	margin-top: 100px
+	background-size: cover
+	background-repeat: no-repeat
+
+.uno, .dos, .tres
+	display: none
+
+.animation_header_1
+	height: 140px
+	width: 700px
+	background-color: $second_color
+	position: absolute
+	left: 50%
+	top: 50%
+	margin-top: -70px
+	margin-left: -350px
+
+
+.animation_title
+	background-color: $first_color
+	font-size: 38px
+	letter-spacing: 3px
+	padding-left: 7px
+	font-style: lighter
+	padding-top: 4px
+	padding-bottom: 4px
+
+.animation_p
+	padding-left: 7px
+	padding-top: 7px
+	padding-top: 8px
+	padding-bottom: 5px
+
+svg
+	position: absolute
+	top: 50%
+	margin-top: -25px
+	cursor: pointer
+
+#flecha_1
+	left: 10%
+
+#flecha_2
+	right: 10%
+
+/*==========Section_2============*/
+hr 
+	margin: 0 auto
+#section_2 div
+	background-color: $second_color
+	text-align: center 
+
+
+
+
+/*==========Section_3============*/
+
+.posicion_icono
+	padding-left: 12px
+	padding-top: 35px
+	height: 70px
+	width: 70px
+
+.posicion_titulo
+	letter-spacing: 1.5px
+	padding-left: 100px
+	margin-top: -55px
+	font-size: 23px
+	color: $second_color
+
+
+
+
+
+/*==========Section_4============*/
+.servicios_titulo
+	font-size: 20px
+	background-color: $first_color
+	text-align: center
+	padding: 8px
+	letter-spacing: 1.5px
+/*==========Section_Preguntas============*/
+
+#preguntas_contenedor
+	height: 350px
+	width: 700px
+	background-color: #DADAD9
+	position: absolute
+	left: 50%
+	margin-left: - 350px
+	li
+		list-style: none
+	
+
+
+
+.preguntas
+	background-color: $second_color
+	height: 70px
+	width: 360px
+	margin-left: 80px
+	margin-top: 50px
+	position: absolute
+	padding-top: 25px
+	padding-left: 50px
+
+.respuestas
+	position: absolute
+	background-color: $first_color
+	height: 140px
+	width: 340px
+	margin-left: 220px
+	margin-top: 120px
+	padding-top: 45px
+	padding-left: 50px
+	padding-right: 50px
+	text-align: justify
+
+
+
+
+/*==========Primer Media Query============*/
+@media (min-width:1281px)
+	header
+		#header_container
+			width: 1200px
+			h1
+				padding-top: -500px
+				display: block
+			li 
+				font-size: 17px
+				padding-left: 20px
+			ul
+				margin-left: 450px
+				margin-top: -40px
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+/*==========Segundo Media Query============*/
+@media (min-width:900px) 
+	h1
+		display: none
+
+	#header_container
+		width: 1000px
+		font-size: 15px
+	header ul 	
+		position: absolute
+		margin-left: 30%
+		margin-top: -65px
+
+		li 
+			padding-left: 10px
+	/*==========Primera seccion============*/
+	#section_1
+		img
+			position: absolute
+			height: 200px
+			width: 380px
+			left: 50%
+			top: 50%
+			margin-left: -190px
+			margin-top: -100px
+	/*==========Segunda seccion============*/
+	#section_2
+		height: 330px
+		width: 900px
+		top: 570px
+		left: 50%
+		margin-left: -450px
+		\:nth-child(3)
+			hr 
+				margin-top: 10px
+			h3
+				margin-top: 25px
+		\:nth-child(2)	
+			hr 
+				margin-top: 10px
+			h3
+				margin-top: 25px
+		\:nth-child(4)	
+			h3
+				margin-top: 0px
+			hr
+				margin-top: 10px
+
+		div
+			height: 300px
+			width: 250px
+			margin-top: 10px
+			float: left
+			margin-left: 37.5px
+
+		img
+			height: 100px
+			width: 90px
+			margin-top: 30px
+		h3
+			margin-top: 10px
+			letter-spacing: 1.5px
+			font-size: 22px
+		p 	
+			padding-left: 15px
+			padding-right: 15px
+			font-size: 15px
+			padding-top: 10px
+			letter-spacing: .5px
+	/*==========Tercer seccion============*/
+	#section_3
+		height: 535px
+		width: 700px
+		margin: 0 auto
+		left: 50%
+		margin-left: -350px
+		top: 890px
+		img
+			margin-left: -97px
+		h3
+			margin-left: -98px
+		li
+			list-style: none
+		h4
+			background-color: $first_color
+			height: 40px
+			width: 40px
+			text-align: center
+			vertical-align: middle
+			line-height: 40px
+			padding: 15px
+			margin-top: 30px
+			margin-left: 20px
+			padding-bottom: 20px
+		p 
+			background-color: $second_color
+			height: 40px
+			width: 550px
+			padding: 15px
+			padding-bottom: 20px
+			float: right
+			margin-top: -75px
+			text-align: center
+			font-size: 15px
+		ul
+			\:nth-child(1)
+				\:nth-child(2)
+					vertical-align: middle
+					line-height: 40px
+	/*==========Cuarta seccion============*/
+	#section_4
+		height: 550px
+		width: 900px
+		top: 1500px
+		left: 50%
+		margin-left: -450px
+		#servicio_tres
+			width: 676px
+			letter-spacing: 1px
+			height: 15px
+		br 
+			display: none
+		ul
+			margin-top: 7px
+		li 
+			list-style: none
+			padding-top: 18px
+			font-size: 17px
+		div
+			height: 280px
+			width: 280px
+			background-color:  $second_color
+			text-align: center
+			float: left
+			margin-left: 120px
+			margin-top: 50px	
+	#servicios_dos ul
+		margin-top: 25px
+	/*==========Biografia seccion============*/
+	#section_5
+		height: 1200px
+		width: 100%
+		top: 2030px
+		h3
+			margin-left: 185px
+	#posicion_icono
+		margin-left: 187px
+		width: 60px
+	#img_biografia
+		position: absolute
+		left: 50%
+		top: 118px
+		margin-left: -250px
+	#texto_biografia
+		width: 100%
+		height: 680px
+		background-color: $second_color
+		top: 487px
+		position: absolute
+		#estudios
+			margin-top: 0px
+		h3
+			background-color: $first_color
+			height: 40px
+			width: 500px
+			margin-left: 0
+			text-align: right
+			padding-right: 10px
+			vertical-align: middle
+			line-height: 40px
+			font-size: 21px
+			letter-spacing: 1px
+			margin-top: 150px
+			
+		p 
+			position: absolute
+			width: 500px
+			margin-left: 25%
+			padding-top: 20px
+			line-height: 40px
+	#fechas
+		position: absolute
+		background-color: $first_color
+		width: 120px
+		height: 380px
+		top: 0
+		right: 15%
+
+		text-align: center
+		li 
+			list-style: none
+			padding-top: 20px
+		ul 
+			margin-top: 48px
+		\:nth-child(2)
+			\:nth-child(1)
+				padding-top: 39px
+	/*=========preguntas seccion============*/
+	#section_6
+		width: 100%
+		height: 530px
+		top: 3200px
+		ul
+			\:nth-child(4)
+				\:nth-child(2)
+					font-size: 15px
+		img
+			margin-left: 185px
+			width: 60px
+		h3
+			margin-left: 186px
+
+	#preguntas_contenedor
+		margin-top: 50px
+	/*=========Section comentarios============*/
+	#section_comentarios
+		background-color: $second_color
+		width: 100%
+		height: 400px
+		top: 3780px
+		img
+			position: absolute
+			height: 60px
+		\:nth-child(1)
+			left: 10%
+			top: 40px
+		\:nth-child(5)
+			-ms-transform: rotate(180deg) 
+			-webkit-transform: rotate(180deg)
+			transform: rotate(180deg)
+			right: 10%
+			bottom: 40px
+	article
+		position: absolute
+		height: 150px
+		width: 700px
+		text-align: justify
+		left: 50%
+		top: 50%
+		margin-top: -55px
+		margin-left: -350px
+		font-size: 17px
+	#comentario_2, #comentario_3
+		display: none
+	/*=========Section agenda============*/
+	#section_7
+		width: 100%
+		height: 710px
+		top: 4246px
+		color: $second_color
+		img
+			width: 60px
+			margin-left: 187px
+			margin-top: -30px
+			padding-bottom: 40px
+		h3
+			color: $second_color
+			margin-left: 187px	
+			padding-bottom: 60px
+			margin-top: -90px
+
+		form
+			background-color: $first_color
+			width: 900px
+			height: 380px
+			margin: 0 auto
+			border-radius: 5px
+			\:nth-child(1)
+				width: 650px
+				margin-left: 120px
+				margin-top: 50px
+			\:nth-child(2)
+				margin-left: 120px
+		input
+			height: 30px
+			width: 315px
+			display: inline-block
+			margin-top: 8px
+			border: none
+			margin-left: 8px
+			padding: 5px
+			border-radius: 5px
+		textarea
+			height: 150px 
+			width: 650px
+			display: block
+			margin: 0 auto
+			margin-top: 8px
+			border: none
+			padding: 5px
+			border-radius: 5px
+		#boton
+			background-color: $second_color
+			margin-top: 10px
+			color: white
+			width: 100px
+			margin-left: 402px
+	#horario
+		margin: 0 auto
+		width: 250px
+		height: 150px
+		color: $second_color
+		text-align: center
+		margin-top: 30px
+		h4
+			font-size: 19px
+			letter-spacing: .5px
+			padding-bottom: 10px
+		p 	
+			font-size: 14px
+			padding-top: 10px
+			letter-spacing: .1px
+	#texto_ubicacion
+		color: black
+	/*=========Footer============*/
+	footer
+		background-color: $second_color
+		top: 4925px
+		position: absolute
+		width: 100%
+		border-top: solid 5px $first_color
+	#footer
+		width: 230px
+		padding-top: 5px
+		float: right
+		\:nth-child(1)
+			\:nth-child(1)
+				margin-left: 60px
+		img
+			height: 60px
+			opacity: .7
+			margin-left: 10px
+			
+		img:hover
+			background-color: $first_color
+			opacity: 1
+
+		
+
+	
+				
+
+
+
+
+
+		
+
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	#header_mobile, #mobile, #icono_blanco
+		display: none
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*==========Tercer Media Query============*/
+@media (max-width:900px) and (min-width:735px)
+	h1
+		display: none	
+
+	#header_container
+		width: 700px
+		font-size: 13px
+
+	header ul 	
+		margin-left: 170px
+		margin-top: -65px
+
+		li 
+			padding-left: 10px
+
+
+	/*==========Primera seccion============*/
+
+	svg
+		display: none
+
+	#section_1
+		img
+			position: absolute
+			height: 200px
+			width: 380px
+			left: 50%
+			top: 50%
+			margin-left: -190px
+			margin-top: -100px
+	
+	/*==========Segunda seccion============*/
+	#section_2
+		height: 630px
+		width: 100%
+		top: 550px
+		div
+			margin-top: 40px
+			padding: 20px
+			h3
+				letter-spacing: 1.5px
+			img
+				height: 70px
+				width: 65px
+	
+	#header_mobile
+		display: none
+	/*==========Tercera seccion============*/
+	#section_3
+		height: 535px
+		width: 700px
+		margin: 0 auto
+		left: 50%
+		margin-left: -350px
+		top: 1180px
+		img
+			margin-left: 36px
+		h3
+			margin-left: 30px
+		li 
+			list-style: none
+		h4
+			background-color: $first_color
+			height: 30px
+			width: 30px
+			text-align: center
+			vertical-align: middle
+			line-height: 30px
+			padding: 15px
+			margin-top: 30px
+			margin-left: 40px
+		p 
+			background-color: $second_color
+			height: 30px
+			width: 500px
+			padding: 15px
+			float: right
+			margin-top: -60px
+			margin-right: 40px
+			text-align: center
+			font-size: 13px
+		ul
+			\:nth-child(1)
+				\:nth-child(2)
+					vertical-align: middle
+					line-height: 30px
+	/*==========Cuarta seccion============*/
+	#section_4
+		width: 100%
+		height: 705px
+		top: 1715px
+		div
+			background-color: $second_color
+		img
+			margin-left: 50px
+		h3
+			margin-left: 50px
+		h4
+			margin-top: 30px
+		li 	
+			padding-top: 8px
+			padding-bottom: 8px
+			text-align: center
+	/*==========Seccion Biografia============*/	
+	#section_5
+		width: 100%
+		height: 800px
+		top: 2400px
+		h3
+			margin-left: 50px
+	#img_biografia
+		position: absolute
+		left: 50%
+		margin-left: -250px
+		top: 135px
+
+	#posicion_icono
+		margin-left: 55px
+		width: 60px
+	
+
+	#texto_biografia
+		background-color: $second_color
+		height: 340px
+		width: 100%
+		position: absolute
+		top: 500px
+		text-align: center
+		h3
+			margin-left: 0px
+			margin-top: 8px
+		p 	
+			margin-top: 5px
+			font-size: 14px
+	/*==========Seccion Preguntas============*/	
+	#section_6
+		width: 100%
+		height: 530px
+		top: 3255px
+		img
+			margin-left: 50px
+		h3
+			margin-top: -70px
+			margin-left: 50px
+	#preguntas_contenedor
+		margin-top: 50px
+		
+	/*==========Seccion Agendar===========*/	
+	#section_7
+		background-color: $first_color
+		width: 100%
+		height: 690px
+		top: 3775px
+		color: $second_color
+		img
+			width: 60px
+			margin-left: 55px
+
+		h3
+			color: white
+			margin-left: 50px	
+		form
+			margin-top: 50px
+		input
+			height: 30px
+			width: 95%
+			display: block
+			margin: 0 auto
+			margin-top: 8px
+			border: none
+			padding: 5px
+			z-index: 99
+			border-radius: 5px
+		textarea
+			height: 150px 
+			width: 95%
+			display: block
+			margin: 0 auto
+			margin-top: 8px
+			border: none
+			padding: 5px
+			border-radius: 5px
+		#boton
+			background-color: $second_color
+			margin-top: 10px
+			color: white
+			width: 80px
+	#horario
+		margin: 0 auto
+		width: 250px
+		height: 150px
+		color: white
+		text-align: center
+		margin-top: 15px
+		h4
+			font-size: 19px
+			letter-spacing: .5px
+			padding-bottom: 10px
+		p 	
+			font-size: 14px
+			padding-top: 10px
+			letter-spacing: .1px
+	#texto_ubicacion
+		color: $second_color
+	footer
+		background-color: $second_color
+		top: 4410px
+		position: absolute
+		width: 100%
+		\:nth-child(1)
+			\:nth-child(1)
+				margin-left: 40px
+	#footer
+		width: 150px
+		float: right
+		padding-top: 5px
+		img
+			height: 50px
+			margin-left: -5px
+	#mobile, #fechas, #section_comentarios, #icono_azul
+		display: none
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*==========Ultimo Media Query============*/
+@media (max-width:734px)
+	header
+		display: none
+
+	#section_1, #section_6
+		display: none
+
+
+	#mobile
+		width: 100%
+		height: 252px
+		position: absolute
+		top: 50%
+		margin-top: -121px
+		img
+			height     : 150px
+			width      : 280px
+			position   : absolute
+			left       : 50%
+			top        : 50%
+			margin-top : -75px
+			margin-left: -145px
+
+
+	/*===========Section Beneficios============*/
+	#section_2
+		top: 560px
+		width: 100%
+		div
+			height: 250px
+			width: 100%
+			margin-top: 30px
+			img
+				height: 100px
+				width: 80px
+				padding-top: 10px
+			h3
+				padding-top: 10px
+				padding-bottom: 8px
+				letter-spacing: 2px
+			p 
+				padding-left: 10px
+				padding-right: 10px
+				padding-top: 8px
+	#header_mobile
+		color: $second_color
+		text-align: center
+	/*===========Section Procedimiento============*/
+	#section_3
+		height: 428px
+		width: 100%
+		top: 1450px
+		h3
+			margin-left: -15px
+		h4
+			display: none
+	#procedimiento_texto
+		width: 420px
+		padding-top: 40px
+		margin: 0 auto
+		p
+			font-size: 16px
+			margin-top: 20px
+			text-align: justify
+			color: $second_color
+		li
+			content: "• "
+			color: $second_color
+	/*===========Section servicios============*/
+	#section_4
+		height: 730px
+		width: 100%
+		top: 1905px
+	.servicios
+		height: 200px	
+		width: 100%
+		background-color: $second_color
+		text-align: center
+		margin-top: 8px
+	#servicios_uno
+		margin-top: 45px
+	#servicios_uno li
+		margin-top: 4.5px
+		padding-top: 4px
+	#servicios_dos li 
+		margin-top: 4.5px
+		padding-top: 10px
+	#servicio_tres
+		margin-top: 10px
+	/*===========Section Biografia============*/
+	#section_5
+		width: 100%
+		height: 720px
+		top: 2545px
+		#posicion_icono
+			height: 60px
+			width: 54px
+			margin-left: 4px
+		#img_biografia
+			max-width: 100%
+			height: auto
+			position: relative
+			display: block
+			margin: 0 auto
+			margin-top: 48px
+		#img_biografia img
+			width: 100% !important
+			height: 100% !important
+			display: block
+			margin: 0 auto
+			max-width: 350px
+	#texto_biografia
+		position: relative
+		width: 100%
+		height: 380px
+		margin: 0 auto
+		text-align: center
+		background-color: $second_color
+		h3
+			padding-top: 10px
+			letter-spacing: .5px
+		p 
+			font-size: 14px
+			margin-top: 10px
+			padding-bottom: 5px
+	#desktop
+		display: none
+	/*===========Section agendar============*/
+	#section_7
+		background-color: $first_color
+		width: 100%
+		height: 710px
+		top: 3300px
+		color: $second_color
+		box-shadow: 10px 10px 20px 10px black
+		img
+			width: 60px
+
+		h3
+			color: white	
+		form
+			margin-top: 50px
+		input
+			height: 30px
+			width: 95%
+			display: block
+			margin: 0 auto
+			margin-top: 8px
+			border: none
+			padding: 5px
+			z-index: 99
+			border-radius: 5px
+		textarea
+			height: 150px 
+			width: 95%
+			display: block
+			margin: 0 auto
+			margin-top: 8px
+			border: none
+			padding: 5px
+			border-radius: 5px
+		#boton
+			background-color: $second_color
+			margin-top: 10px
+			color: white
+			width: 80px
+	#horario
+		margin: 0 auto
+		width: 250px
+		height: 150px
+		color: white
+		text-align: center
+		margin-top: 15px
+		h4
+			font-size: 19px
+			letter-spacing: .5px
+			padding-bottom: 10px
+		p 	
+			font-size: 14px
+			padding-top: 10px
+			letter-spacing: .1px
+
+	#texto_ubicacion
+		color: $second_color
+	/*===========Footer============*/
+	footer
+		background-color: $second_color
+		top: 3970px
+		position: absolute
+		width: 100%
+		\:nth-child(1)
+			\:nth-child(1)
+				margin-left: 50px
+	#footer
+		width: 150px
+		float: right
+		padding-top: 5px
+		img
+			height: 50px
+			margin-left: -5px
+	#fechas, #section_comentarios, #icono_azul
+		display: none
+	
+
+
+
+
+
+
+
+
+
+/*===========Media Query De Seccion de procedimiento_texto============*/
+
+@media (max-width:490px)
+	#procedimiento_texto
+		width: 270px
+		padding-top: 20px
+		margin: 0 auto
+		p
+			font-size: 14px
+			margin-top: 15px
+			text-align: justify
+			color: $second_color
+
+	li
+		list-style: none
+
+
+
+
+	
+
+
+
+
+
+				
+
+			 
+				
+
+		
+			
+
+
+	    
+    
+

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"> 
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+	<title>Contacto | Doctor Oscar Charles</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<link rel="icon" type="image/png" href="../img/favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css"> 
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400' rel='stylesheet' type='text/css'>
+    <script src="js/vendor/modernizr-2.8.3.min.js">
+    </script> 
+    <link rel="icon" type="image/png" href="img/favicon.ico">
+	<link rel="stylesheet" href="css/main.css"> 
+	<style>
+		#section_7{
+			top:50%;
+			margin-top: -300px;
+		}
+
+		@media (max-width: 900px) and (min-width: 7px) {
+			img{
+				display: none;
+			}
+			h3{
+				display: none;
+			}
+		}
+		@media (max-width: 490px) {
+			#section_7{
+				padding-top: 30px;
+				height: 560px;
+			}
+		}
+
+	</style>
+
+</head>
+<body>
+<!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="css/main-ie.css"/><p class="browserupgrade" style="color: black">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p><![endif]--> 
+	<section id="section_7">
+        <img id="icono_azul" class="posicion_icono" src="img/agendar-icono2.png" alt="icono ageharles" height="88" width="84">
+        <h3 class="posicion_titulo">AGENDAR</h3>
+        <form name="form_1" method="post" action="send_contact.php"> 
+            <input type="text" name="nombre" placeholder="Nombre" maxlength="20" > 
+            <input type="tel" name="telefono" placeholder="Telefono" maxlength="10"> 
+            <input type="email" name="correo" placeholder="Correo Electronico" required> 
+            <textarea placeholder="Agende una cita..." name="cita" ></textarea> 
+            <input id="boton" type="submit" value="ENVIAR"></input> 
+        </form>  
+        <div id="horario"> 
+            <h4>HORARIO</h4> 
+            <hr color="#123F70"> 
+            <p>LUNES-VIERNES 9:00 AM A 8:30 PM
+            <br>SABADO 9:00 AM A 3:00 PM</p>
+            <p id="texto_ubicacion">Centro Médico San Francisco<br>
+            Calle Benito Juárez 554. Zona Centro.</p>
+        </div> 
+    </section>
+</body>
+</html>

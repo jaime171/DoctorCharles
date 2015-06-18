@@ -1,0 +1,970 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-image: url(../img/fondo_total.png);
+  color: white;
+  font-family: "roboto", sans-serif; }
+
+  hr{
+    color:#1AB8E0;
+  }
+header {
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  box-shadow: 1px 1px 10px #888888;
+  z-index: 1; }
+  header h1 {
+    font-size: 21px;
+    margin-top: -65px;
+    margin-left: 120px;
+    color: black; }
+  header ul {
+    margin-left: 460px;
+    margin-top: -40px; }
+  header li {
+    display: inline-block;
+    padding-left: 28px; }
+  header a {
+    text-decoration: none;
+    color: black; }
+  header a:hover {
+    color: #1EB8E1; }
+
+section {
+  position: absolute; }
+
+textarea {
+  resize: none; }
+
+#header_container {
+  margin: 0 auto;
+  background-color: white;
+  height: 100px;
+  width: 100%;
+  font-weight: lighter; }
+
+/*==========Section_1============ */
+#section_1 {
+  background-image: url(../img/fondo_1.jpg);
+  height: 450px;
+  width: 100%;
+  margin-top: 100px;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.uno, .dos, .tres {
+  display: none; }
+
+.animation_header_1 {
+  height: 140px;
+  width: 700px;
+  background-color: #123F70;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: -70px;
+  margin-left: -350px; }
+
+.animation_title {
+  background-color: #1EB8E1;
+  font-size: 38px;
+  letter-spacing: 3px;
+  padding-left: 7px;
+  padding-top: 4px;
+  padding-bottom: 4px; }
+
+.animation_p {
+  padding-left: 7px;
+  padding-top: 7px;
+  padding-top: 8px;
+  padding-bottom: 5px; }
+
+svg {
+  position: absolute;
+  top: 50%;
+  margin-top: -25px;
+  cursor: pointer; }
+
+#flecha_1 {
+  left: 10%; }
+
+#flecha_2 {
+  right: 10%; }
+
+/*==========Section_2============ */
+hr {
+  margin: 0 auto; }
+
+#section_2 div {
+  background-color: #123F70;
+  text-align: center; }
+
+/*==========Section_3============ */
+.posicion_icono {
+  padding-left: 12px;
+  padding-top: 35px;
+  height: 70px;
+  width: 70px; }
+
+.posicion_titulo {
+  letter-spacing: 1.5px;
+  padding-left: 100px;
+  margin-top: -55px;
+  font-size: 23px;
+  color: #123F70; }
+
+/*==========Section_4============ */
+.servicios_titulo {
+  font-size: 20px;
+  background-color: #1EB8E1;
+  text-align: center;
+  padding: 8px;
+  letter-spacing: 1.5px; }
+
+/*==========Section_Preguntas============ */
+#preguntas_contenedor {
+  height: 350px;
+  width: 700px;
+  background-color: #DADAD9;
+  position: absolute;
+  left: 50%;
+  margin-left: -350px; }
+  #preguntas_contenedor li {
+    list-style: none; }
+
+.preguntas {
+  background-color: #123F70;
+  height: 70px;
+  width: 360px;
+  margin-left: 80px;
+  margin-top: 50px;
+  position: absolute;
+  padding-top: 25px;
+  padding-left: 50px; }
+
+.respuestas {
+  position: absolute;
+  background-color: #1EB8E1;
+  height: 140px;
+  width: 340px;
+  margin-left: 220px;
+  margin-top: 120px;
+  padding-top: 45px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: justify; }
+
+/*==========Primer Media Query============ */
+@media (min-width: 1281px) {
+  header #header_container {
+    width: 1200px; }
+    header #header_container h1 {
+      display: block; }
+    header #header_container li {
+      font-size: 17px;
+      padding-left: 20px; }
+    header #header_container ul {
+      margin-left: 450px;
+      margin-top: -40px; } }
+/*==========Segundo Media Query============ */
+@media (min-width: 900px) {
+  h1 {
+    display: none; }
+
+  #header_container {
+    width: 1000px;
+    font-size: 15px; }
+
+  header ul {
+    position: absolute;
+    margin-left: 30%;
+    margin-top: -65px; }
+    header ul li {
+      padding-left: 10px; }
+
+  /*==========Primera seccion============ */
+  #section_1 img {
+    position: absolute;
+    height: 200px;
+    width: 380px;
+    left: 50%;
+    top: 50%;
+    margin-left: -190px;
+    margin-top: -100px; }
+
+  /*==========Segunda seccion============ */
+  #section_2 {
+    height: 330px;
+    width: 900px;
+    top: 570px;
+    left: 50%;
+    margin-left: -450px; }
+    #section_2 :nth-child(3) hr {
+      margin-top: 10px; }
+    #section_2 :nth-child(3) h3 {
+      margin-top: 25px; }
+    #section_2 :nth-child(2) hr {
+      margin-top: 10px; }
+    #section_2 :nth-child(2) h3 {
+      margin-top: 25px; }
+    #section_2 :nth-child(4) h3 {
+      margin-top: 0px; }
+    #section_2 :nth-child(4) hr {
+      margin-top: 10px; }
+    #section_2 div {
+      height: 300px;
+      width: 250px;
+      margin-top: 10px;
+      float: left;
+      margin-left: 37.5px; }
+    #section_2 img {
+      height: 100px;
+      width: 90px;
+      margin-top: 30px; }
+    #section_2 h3 {
+      margin-top: 10px;
+      letter-spacing: 1.5px;
+      font-size: 22px; }
+    #section_2 p {
+      padding-left: 15px;
+      padding-right: 15px;
+      font-size: 15px;
+      padding-top: 10px;
+      letter-spacing: 0.5px; }
+
+  /*==========Tercer seccion============ */
+  #section_3 {
+    height: 535px;
+    width: 700px;
+    margin: 0 auto;
+    left: 50%;
+    margin-left: -350px;
+    top: 890px; }
+    #section_3 img {
+      margin-left: -97px; }
+    #section_3 h3 {
+      margin-left: -98px; }
+    #section_3 li {
+      list-style: none; }
+    #section_3 h4 {
+      background-color: #1EB8E1;
+      height: 40px;
+      width: 40px;
+      text-align: center;
+      vertical-align: middle;
+      line-height: 40px;
+      padding: 15px;
+      margin-top: 30px;
+      margin-left: 20px;
+      padding-bottom: 20px; }
+    #section_3 p {
+      background-color: #123F70;
+      height: 40px;
+      width: 550px;
+      padding: 15px;
+      padding-bottom: 20px;
+      float: right;
+      margin-top: -75px;
+      text-align: center;
+      font-size: 15px; }
+    #section_3 ul :nth-child(1) :nth-child(2) {
+      vertical-align: middle;
+      line-height: 40px; }
+
+  /*==========Cuarta seccion============ */
+  #section_4 {
+    height: 550px;
+    width: 900px;
+    top: 1500px;
+    left: 50%;
+    margin-left: -450px; }
+    #section_4 #servicio_tres {
+      width: 676px;
+      letter-spacing: 1px;
+      height: 15px; }
+    #section_4 br {
+      display: none; }
+    #section_4 ul {
+      margin-top: 7px; }
+    #section_4 li {
+      list-style: none;
+      padding-top: 18px;
+      font-size: 17px; }
+    #section_4 div {
+      height: 280px;
+      width: 280px;
+      background-color: #123F70;
+      text-align: center;
+      float: left;
+      margin-left: 120px;
+      margin-top: 50px; }
+
+  #servicios_dos ul {
+    margin-top: 25px; }
+
+  /*==========Biografia seccion============ */
+  #section_5 {
+    height: 1200px;
+    width: 100%;
+    top: 2030px; }
+    #section_5 h3 {
+      margin-left: 185px; }
+
+  #posicion_icono {
+    margin-left: 187px;
+    width: 60px; }
+
+  #img_biografia {
+    position: absolute;
+    left: 50%;
+    top: 118px;
+    margin-left: -250px; }
+
+  #texto_biografia {
+    width: 100%;
+    height: 680px;
+    background-color: #123F70;
+    top: 487px;
+    position: absolute; }
+    #texto_biografia #estudios {
+      margin-top: 0px; }
+    #texto_biografia h3 {
+      background-color: #1EB8E1;
+      height: 40px;
+      width: 500px;
+      margin-left: 0;
+      text-align: right;
+      padding-right: 10px;
+      vertical-align: middle;
+      line-height: 40px;
+      font-size: 21px;
+      letter-spacing: 1px;
+      margin-top: 150px; }
+    #texto_biografia p {
+      position: absolute;
+      width: 500px;
+      margin-left: 25%;
+      padding-top: 20px;
+      line-height: 40px; }
+
+  #fechas {
+    position: absolute;
+    background-color: #1EB8E1;
+    width: 120px;
+    height: 380px;
+    top: 0;
+    right: 15%;
+    text-align: center; }
+    #fechas li {
+      list-style: none;
+      padding-top: 20px; }
+    #fechas ul {
+      margin-top: 48px; }
+    #fechas :nth-child(2) :nth-child(1) {
+      padding-top: 39px; }
+
+  /*=========preguntas seccion============ */
+  #section_6 {
+    width: 100%;
+    height: 530px;
+    top: 3200px; }
+    #section_6 ul :nth-child(4) :nth-child(2) {
+      font-size: 15px; }
+    #section_6 img {
+      margin-left: 185px;
+      width: 60px; }
+    #section_6 h3 {
+      margin-left: 186px; }
+
+  #preguntas_contenedor {
+    margin-top: 50px; }
+
+  /*=========Section comentarios============ */
+  #section_comentarios {
+    background-color: #123F70;
+    width: 100%;
+    height: 400px;
+    top: 3780px; }
+    #section_comentarios img {
+      position: absolute;
+      height: 60px; }
+    #section_comentarios :nth-child(1) {
+      left: 10%;
+      top: 40px; }
+    #section_comentarios :nth-child(5) {
+      -ms-transform: rotate(180deg);
+      -webkit-transform: rotate(180deg);
+      transform: rotate(180deg);
+      right: 10%;
+      bottom: 40px; }
+
+  article {
+    position: absolute;
+    height: 150px;
+    width: 700px;
+    text-align: justify;
+    left: 50%;
+    top: 50%;
+    margin-top: -55px;
+    margin-left: -350px;
+    font-size: 17px; }
+
+  #comentario_2, #comentario_3 {
+    display: none; }
+
+  /*=========Section agenda============ */
+  #section_7 {
+    width: 100%;
+    height: 710px;
+    top: 4246px;
+    color: #123F70; }
+    #section_7 img {
+      width: 60px;
+      margin-left: 187px;
+      margin-top: -30px;
+      padding-bottom: 40px; }
+    #section_7 h3 {
+      color: #123F70;
+      margin-left: 187px;
+      padding-bottom: 60px;
+      margin-top: -90px; }
+    #section_7 form {
+      background-color: #1EB8E1;
+      width: 900px;
+      height: 380px;
+      margin: 0 auto;
+      border-radius: 5px; }
+      #section_7 form :nth-child(1) {
+        width: 650px;
+        margin-left: 120px;
+        margin-top: 50px; }
+      #section_7 form :nth-child(2) {
+        margin-left: 120px; }
+    #section_7 input {
+      height: 30px;
+      width: 315px;
+      display: inline-block;
+      margin-top: 8px;
+      border: none;
+      margin-left: 8px;
+      padding: 5px;
+      border-radius: 5px; }
+    #section_7 textarea {
+      height: 150px;
+      width: 650px;
+      display: block;
+      margin: 0 auto;
+      margin-top: 8px;
+      border: none;
+      padding: 5px;
+      border-radius: 5px; }
+    #section_7 #boton {
+      background-color: #123F70;
+      margin-top: 10px;
+      color: white;
+      width: 100px;
+      margin-left: 402px; }
+
+  #horario {
+    margin: 0 auto;
+    width: 250px;
+    height: 150px;
+    color: #123F70;
+    text-align: center;
+    margin-top: 30px; }
+    #horario h4 {
+      font-size: 19px;
+      letter-spacing: 0.5px;
+      padding-bottom: 10px; }
+    #horario p {
+      font-size: 14px;
+      padding-top: 10px;
+      letter-spacing: 0.1px; }
+
+  #texto_ubicacion {
+    color: black; }
+
+  /*=========Footer============ */
+  footer {
+    background-color: #123F70;
+    top: 4925px;
+    position: absolute;
+    width: 100%;
+    border-top: solid 5px #1EB8E1; }
+
+  #footer {
+    width: 230px;
+    padding-top: 5px;
+    float: right; }
+    #footer :nth-child(1) :nth-child(1) {
+      margin-left: 60px; }
+    #footer img {
+      height: 60px;
+      opacity: 0.7;
+      margin-left: 10px; }
+    #footer img:hover {
+      background-color: #1EB8E1;
+      opacity: 1; }
+
+  #header_mobile, #mobile, #icono_blanco {
+    display: none; } }
+/*==========Tercer Media Query============ */
+@media (max-width: 900px) and (min-width: 735px) {
+  h1 {
+    display: none; }
+
+  #header_container {
+    width: 700px;
+    font-size: 13px; }
+
+  header ul {
+    margin-left: 170px;
+    margin-top: -65px; }
+    header ul li {
+      padding-left: 10px; }
+
+  /*==========Primera seccion============ */
+  svg {
+    display: none; }
+
+  #section_1 img {
+    position: absolute;
+    height: 200px;
+    width: 380px;
+    left: 50%;
+    top: 50%;
+    margin-left: -190px;
+    margin-top: -100px; }
+
+  /*==========Segunda seccion============ */
+  #section_2 {
+    height: 630px;
+    width: 100%;
+    top: 550px; }
+    #section_2 div {
+      margin-top: 40px;
+      padding: 20px; }
+      #section_2 div h3 {
+        letter-spacing: 1.5px; }
+      #section_2 div img {
+        height: 70px;
+        width: 65px; }
+
+  #header_mobile {
+    display: none; }
+
+  /*==========Tercera seccion============ */
+  #section_3 {
+    height: 535px;
+    width: 700px;
+    margin: 0 auto;
+    left: 50%;
+    margin-left: -350px;
+    top: 1180px; }
+    #section_3 img {
+      margin-left: 36px; }
+    #section_3 h3 {
+      margin-left: 30px; }
+    #section_3 li {
+      list-style: none; }
+    #section_3 h4 {
+      background-color: #1EB8E1;
+      height: 30px;
+      width: 30px;
+      text-align: center;
+      vertical-align: middle;
+      line-height: 30px;
+      padding: 15px;
+      margin-top: 30px;
+      margin-left: 40px; }
+    #section_3 p {
+      background-color: #123F70;
+      height: 30px;
+      width: 500px;
+      padding: 15px;
+      float: right;
+      margin-top: -60px;
+      margin-right: 40px;
+      text-align: center;
+      font-size: 13px; }
+    #section_3 ul :nth-child(1) :nth-child(2) {
+      vertical-align: middle;
+      line-height: 30px; }
+
+  /*==========Cuarta seccion============ */
+  #section_4 {
+    width: 100%;
+    height: 705px;
+    top: 1715px; }
+    #section_4 div {
+      background-color: #123F70; }
+    #section_4 img {
+      margin-left: 50px; }
+    #section_4 h3 {
+      margin-left: 50px; }
+    #section_4 h4 {
+      margin-top: 30px; }
+    #section_4 li {
+      padding-top: 8px;
+      padding-bottom: 8px;
+      text-align: center; }
+
+  /*==========Seccion Biografia============ */
+  #section_5 {
+    width: 100%;
+    height: 800px;
+    top: 2400px; }
+    #section_5 h3 {
+      margin-left: 50px; }
+
+  #img_biografia {
+    position: absolute;
+    left: 50%;
+    margin-left: -250px;
+    top: 135px; }
+
+  #posicion_icono {
+    margin-left: 55px;
+    width: 60px; }
+
+  #texto_biografia {
+    background-color: #123F70;
+    height: 340px;
+    width: 100%;
+    position: absolute;
+    top: 500px;
+    text-align: center; }
+    #texto_biografia h3 {
+      margin-left: 0px;
+      margin-top: 8px; }
+    #texto_biografia p {
+      margin-top: 5px;
+      font-size: 14px; }
+
+  /*==========Seccion Preguntas============ */
+  #section_6 {
+    width: 100%;
+    height: 530px;
+    top: 3255px; }
+    #section_6 img {
+      margin-left: 50px; }
+    #section_6 h3 {
+      margin-top: -70px;
+      margin-left: 50px; }
+
+  #preguntas_contenedor {
+    margin-top: 50px; }
+
+  /*==========Seccion Agendar=========== */
+  #section_7 {
+    background-color: #1EB8E1;
+    width: 100%;
+    height: 690px;
+    top: 3775px;
+    color: #123F70; }
+    #section_7 img {
+      width: 60px;
+      margin-left: 55px; }
+    #section_7 h3 {
+      color: white;
+      margin-left: 50px; }
+    #section_7 form {
+      margin-top: 50px; }
+    #section_7 input {
+      height: 30px;
+      width: 95%;
+      display: block;
+      margin: 0 auto;
+      margin-top: 8px;
+      border: none;
+      padding: 5px;
+      z-index: 99;
+      border-radius: 5px; }
+    #section_7 textarea {
+      height: 150px;
+      width: 95%;
+      display: block;
+      margin: 0 auto;
+      margin-top: 8px;
+      border: none;
+      padding: 5px;
+      border-radius: 5px; }
+    #section_7 #boton {
+      background-color: #123F70;
+      margin-top: 10px;
+      color: white;
+      width: 80px; }
+
+  #horario {
+    margin: 0 auto;
+    width: 250px;
+    height: 150px;
+    color: white;
+    text-align: center;
+    margin-top: 15px; }
+    #horario h4 {
+      font-size: 19px;
+      letter-spacing: 0.5px;
+      padding-bottom: 10px; }
+    #horario p {
+      font-size: 14px;
+      padding-top: 10px;
+      letter-spacing: 0.1px; }
+
+  #texto_ubicacion {
+    color: #123F70; }
+
+  footer {
+    background-color: #123F70;
+    top: 4410px;
+    position: absolute;
+    width: 100%; }
+    footer :nth-child(1) :nth-child(1) {
+      margin-left: 40px; }
+
+  #footer {
+    width: 150px;
+    float: right;
+    padding-top: 5px; }
+    #footer img {
+      height: 50px;
+      margin-left: -5px; }
+
+  #mobile, #fechas, #section_comentarios, #icono_azul {
+    display: none; } }
+/*==========Ultimo Media Query============ */
+@media (max-width: 734px) {
+  header {
+    display: none; }
+
+  #section_1, #section_6 {
+    display: none; }
+
+  #mobile {
+    width: 100%;
+    height: 252px;
+    position: absolute;
+    top: 50%;
+    margin-top: -121px; }
+    #mobile img {
+      height: 150px;
+      width: 280px;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      margin-top: -75px;
+      margin-left: -145px; }
+
+  /*===========Section Beneficios============ */
+  #section_2 {
+    top: 560px;
+    width: 100%; }
+    #section_2 div {
+      height: 250px;
+      width: 100%;
+      margin-top: 30px; }
+      #section_2 div img {
+        height: 100px;
+        width: 80px;
+        padding-top: 10px; }
+      #section_2 div h3 {
+        padding-top: 10px;
+        padding-bottom: 8px;
+        letter-spacing: 2px; }
+      #section_2 div p {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 8px; }
+
+  #header_mobile {
+    color: #123F70;
+    text-align: center; }
+
+  /*===========Section Procedimiento============ */
+  #section_3 {
+    height: 428px;
+    width: 100%;
+    top: 1450px; }
+    #section_3 h3 {
+      margin-left: -15px; }
+    #section_3 h4 {
+      display: none; }
+
+  #procedimiento_texto {
+    width: 420px;
+    padding-top: 40px;
+    margin: 0 auto; }
+    #procedimiento_texto p {
+      font-size: 16px;
+      margin-top: 20px;
+      text-align: justify;
+      color: #123F70; }
+    #procedimiento_texto li {
+      content: "ÔÇó ";
+      color: #123F70; }
+
+  /*===========Section servicios============ */
+  #section_4 {
+    height: 730px;
+    width: 100%;
+    top: 1905px; }
+
+  .servicios {
+    height: 200px;
+    width: 100%;
+    background-color: #123F70;
+    text-align: center;
+    margin-top: 8px; }
+
+  #servicios_uno {
+    margin-top: 45px; }
+
+  #servicios_uno li {
+    margin-top: 4.5px;
+    padding-top: 4px; }
+
+  #servicios_dos li {
+    margin-top: 4.5px;
+    padding-top: 10px; }
+
+  #servicio_tres {
+    margin-top: 10px; }
+
+  /*===========Section Biografia============ */
+  #section_5 {
+    width: 100%;
+    height: 720px;
+    top: 2545px; }
+    #section_5 #posicion_icono {
+      height: 60px;
+      width: 54px;
+      margin-left: 4px; }
+    #section_5 #img_biografia {
+      max-width: 100%;
+      height: auto;
+      position: relative;
+      display: block;
+      margin: 0 auto;
+      margin-top: 48px; }
+    #section_5 #img_biografia img {
+      width: 100% !important;
+      height: 100% !important;
+      display: block;
+      margin: 0 auto;
+      max-width: 350px; }
+
+  #texto_biografia {
+    position: relative;
+    width: 100%;
+    height: 380px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #123F70; }
+    #texto_biografia h3 {
+      padding-top: 10px;
+      letter-spacing: 0.5px; }
+    #texto_biografia p {
+      font-size: 14px;
+      margin-top: 10px;
+      padding-bottom: 5px; }
+
+  #desktop {
+    display: none; }
+
+  /*===========Section agendar============ */
+  #section_7 {
+    background-color: #1EB8E1;
+    width: 100%;
+    height: 710px;
+    top: 3300px;
+    color: #123F70;
+    box-shadow: 10px 10px 20px 10px black; }
+    #section_7 img {
+      width: 60px; }
+    #section_7 h3 {
+      color: white; }
+    #section_7 form {
+      margin-top: 50px; }
+    #section_7 input {
+      height: 30px;
+      width: 95%;
+      display: block;
+      margin: 0 auto;
+      margin-top: 8px;
+      border: none;
+      padding: 5px;
+      z-index: 99;
+      border-radius: 5px; }
+    #section_7 textarea {
+      height: 150px;
+      width: 95%;
+      display: block;
+      margin: 0 auto;
+      margin-top: 8px;
+      border: none;
+      padding: 5px;
+      border-radius: 5px; }
+    #section_7 #boton {
+      background-color: #123F70;
+      margin-top: 10px;
+      color: white;
+      width: 80px; }
+
+  #horario {
+    margin: 0 auto;
+    width: 250px;
+    height: 150px;
+    color: white;
+    text-align: center;
+    margin-top: 15px; }
+    #horario h4 {
+      font-size: 19px;
+      letter-spacing: 0.5px;
+      padding-bottom: 10px; }
+    #horario p {
+      font-size: 14px;
+      padding-top: 10px;
+      letter-spacing: 0.1px; }
+
+  #texto_ubicacion {
+    color: #123F70; }
+
+  /*===========Footer============ */
+  footer {
+    background-color: #123F70;
+    top: 3970px;
+    position: absolute;
+    width: 100%; }
+    footer :nth-child(1) :nth-child(1) {
+      margin-left: 50px; }
+
+  #footer {
+    width: 150px;
+    float: right;
+    padding-top: 5px; }
+    #footer img {
+      height: 50px;
+      margin-left: -5px; }
+
+  #fechas, #section_comentarios, #icono_azul {
+    display: none; } }
+/*===========Media Query De Seccion de procedimiento_texto============ */
+@media (max-width: 490px) {
+  #procedimiento_texto {
+    width: 270px;
+    padding-top: 20px;
+    margin: 0 auto; }
+    #procedimiento_texto p {
+      font-size: 14px;
+      margin-top: 15px;
+      text-align: justify;
+      color: #123F70; }
+
+  li {
+    list-style: none; } }
+
+/*# sourceMappingURL=main.css.map */
